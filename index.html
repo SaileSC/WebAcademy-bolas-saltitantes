@@ -3,14 +3,59 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Bouncing balls</title>
+    <title>Figuras Geometricas</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <h1>bouncing balls</h1>
-    <canvas></canvas>
+    <header>
+      <h2>Formas Animadas</h2>
+    </header>
+    <main>
+      <div>
+        <canvas width="300" height="300"></canvas>
+      </div>
+    </main>
 
+    <aside>
+      <div>
+        <h3>opções : </h3>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Quantidade de Formas</legend>
+          <input type="radio" name="quantidade" id="qtd25">
+          <label for="qtd25">25</label>
+          <input type="radio" name="quantidade" id="qtd50">
+          <label for="qtd50">50</label>
+          <input type="radio" name="quantidade" id="qtd75">
+          <label for="qtd75">75</label>
+          <input type="radio" name="quantidade" id="qtd100">
+          <label for="qtd100">100</label>
+        </fieldset>
+  
+        <fieldset>
+          <legend>Tipos de Forma</legend>
+          <input type="radio" name="formas" id="cicle">
+          <label for="cicle">Circulo</label>
+          <input type="radio" name="formas" id="triangle">
+          <label for="triangle">Quadrado</label>
+          <input type="radio" name="formas" id="heart">
+          <label for="heart">Coração</label>
+        </fieldset>
+  
+        <fieldset>
+          <legend>Cores</legend>
+          <input type="radio" name="cores" id="red">
+          <label for="red">Vermelho</label>
+          <input type="radio" name="cores" id="blue">
+          <label for="blue">Azul</label>
+          <input type="radio" name="cores" id="yellow">
+          <label for="yellow">Amarelo</label>
+        </fieldset>
+      </div> 
+    </aside>
+    
     <script src="js/main.js"></script>
   </body>
 </html>
